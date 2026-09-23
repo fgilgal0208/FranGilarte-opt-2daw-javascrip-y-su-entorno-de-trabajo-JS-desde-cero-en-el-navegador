@@ -82,10 +82,15 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 4: Experimenta
 
 - Cambia el valor de la variable `nombre` por el tuyo y recarga la página.
+  ![imagen1](./00JSyEntorno/imagenes/img1.png)
 - Añade una línea que sume dos números y muestre el resultado con `console.log`.
+  ![imagen2](./00JSyEntorno/imagenes/img2.png)
 - Añade otra variable con tu apellido y muestra un saludo completo.
+  ![imagen3](./00JSyEntorno/imagenes/img3.png)
 - Modifica el saludo para que incluya el apellido en mayúsculas. Busca en la consola cómo convertir una cadena a mayúsculas. Para ello usa un literal de cadena (con tu nombre) seguido del operador punto (`.`)
+  ![imagen4](./00JSyEntorno/imagenes/img4.png)
 - Modifica el archivo para que el saludo se muestre en la página web en lugar de la consola. Usa `document.body.innerHTML` para esto:
+  ![imagen5](./00JSyEntorno/imagenes/img5.png)
   ```js
   document.body.innerHTML = "<h1>¡Hola, " + nombre + "!</h1>";
   ```
@@ -116,6 +121,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
      </body>
    </html>
    ```
+
 5. Escribe el siguiente código en `formulario.js`:
    ```js
    document.addEventListener("DOMContentLoaded", function () {
@@ -134,15 +140,42 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 ## Parte 6: Preguntas de reflexión
 
 1. ¿Qué hace `console.log`?
+
+- Muestra por consola lo que pogas entre sus paréntesis, por ejemplo 'console.log("hola)'
+
 2. ¿Qué ocurre si cambias el valor de la variable desde la consola? ¿Se puede?
+
+- Se cambia sin problema.
+  ![img6](./00JSyEntorno/imagenes/img6.png)
+
 3. ¿Para qué sirve la consola del navegador en este contexto?
+
 4. Para qué sirve el archivo HTML en este contexto?
+
+- Para mostrar el código JS
+
 5. ¿Por qué es una buena práctica separar el código JavaScript del HTML?
+
+- Porque mejora la organización y el rendimiento de la página, el navegador siempre leera el codigo html desde el principio pero los archivos JS los guarda en la caché y con leerlos una vez ya se los 'aprende'
+
 6. Por qué se llama Vanilla JavaScript?
+
+- Porque es la utilización del propio lenguaje JavaScript ain ningún tipo de libreria , extensión o framework
+
 7. Cuándo se usa JavaScript puro y cuándo se usan frameworks o librerías como REACT?
+
+- Puro cuando queremos hacer scrips o webs pequeñas y frameworks cuando queremos hacer algo mas grande.
+
 8. Cómo se define una función en JS
+
+- Con el metodo function y el bloque de código entre llaves
+
 9. Sobre el código demuestra la diferencia entre let y const
+
+- let es una variable que se puede cambiar con el paso del codigo, y una constante siempre va a tener el mismo valor o contenido
+
 10. Indica en el código:
+    ![img6](./00JSyEntorno/imagenes/img6.png)
 11. Si puede evitarse el uso de let. Qué hace
 12. Cuántos eventos hay en el código, cuáles son y para qué sirven
 
