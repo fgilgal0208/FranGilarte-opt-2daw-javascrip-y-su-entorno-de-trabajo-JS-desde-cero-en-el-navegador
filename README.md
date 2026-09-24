@@ -1,3 +1,5 @@
+[MI GITHUB PAGUES]((https://fgilgal0208.github.io/))
+
 # JS desde cero en el navegador... antes que REACT.
 
 El objetivo de esta práctica es crear un formulario básico en HTML y JavaScript que permita saludar a un usuario. Publicarlo en un repositorio de GitHub con GitHub Pages. Todo debes documentarlo con un pantallazo en este mismo archivo y personalizarlo con tu tus datos personales.
@@ -97,7 +99,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
   ```
 - Publica tu proyecto en el repositorio de GitHub y usa GitHub Pages para alojarlo. Sigue [esta guía](https://docs.github.com/es/pages/getting-started-with-github-pages/creating-a-github-pages-site) para hacerlo.
 
-(https://fgilgal0208.github.io/)
+
 
 ## parte 5: formulario HTML + JavaScript
 
