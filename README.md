@@ -54,6 +54,7 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
    let nombre = "Anita";
    nombre;
    ```
+   ![](./00JSyEntorno/imagenes/img8.png)
 
 ## Parte 3: Tu primer archivo HTML + JavaScript
 
