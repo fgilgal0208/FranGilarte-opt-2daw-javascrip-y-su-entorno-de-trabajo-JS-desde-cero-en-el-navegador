@@ -182,6 +182,9 @@ JavaScript (JS) es un lenguaje de programación interpretado, ligero y multiplat
 10. Indica en el código:
     ![img6](./00JSyEntorno/imagenes/img6.png)
 11. Si puede evitarse el uso de let. Qué hace
+
+- Se usa const para declarar una variable que su valor no va a cambiar
+
 12. Cuántos eventos hay en el código, cuáles son y para qué sirven
 
 =======
